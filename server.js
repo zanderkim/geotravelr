@@ -26,6 +26,11 @@ const port = process.env.PORT || 3001;
 // Put API routes here, before the "catch all" route
 app.use('/api/users', require('./routes/api/users'));
 
+// Location routes
+app.use('/mylocations', require('./routes/api/locations'));
+// locations.js file in utilities - connect to backend routes
+
+
 // The following "catch all" route (note the *) is necessary
 // to return the index.html on all non-AJAX/API requests
 app.get('/*', function(req, res) {

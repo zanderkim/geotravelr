@@ -8,13 +8,24 @@ export default function NavBar({ user, setUser }) {
   }
 
   return (
-    <nav>
-      <Link to="/orders">Order History</Link>
-      &nbsp; | &nbsp;
-      <Link to="/orders/new">New Order</Link>
-      &nbsp;&nbsp;
-      <span>Welcome, {user.name}</span>
-      &nbsp;&nbsp;<Link to="" onClick={handleLogOut}>Log Out</Link>
-    </nav>
+    <>
+      <nav>
+        <span>Welcome to GeoTravelr, {user.name}  |  </span>
+        <Link to="/profile">my profile |</Link>
+        &nbsp;&nbsp;
+        <Link to="/messages">messages</Link>
+        &nbsp; | &nbsp;
+
+        <Link to="/mylocations"> my locations |</Link>
+        &nbsp;&nbsp;
+        <Link to="/places"> all places |</Link>
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;<Link to="" onClick={handleLogOut}>log out</Link>
+      </nav>
+
+      <div>
+   
+      </div>
+    </>
   );
 }

@@ -2,6 +2,43 @@
 .my-locations-page {
     border: 2px;
     border-color: blue;
-    height: 50px;
+    flex-direction: row;
+}
+
+.LocationList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#location-card {
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #feff9c; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 200px;
     width: 200px;
+    font-size: 20px;
+}
+
+#location-card-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#location-card-date {
+    font-size: 16px;
+}
+
+#location-card-notes {
+    font-size: 16px;
+}
+
+#edit-delete-card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
 }

@@ -34,6 +34,10 @@ const locationSchema = new Schema({
         type: String,
         required: [true, 'enter destination']
     },
+    date: {
+        type: String,
+        required: [true, 'dates visited']
+    },
     notes: {
         type: String,
         required: [true, 'enter any notes you wish (you can edit this later)']

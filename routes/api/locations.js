@@ -18,4 +18,7 @@ router.delete('/:id', ensureLoggedIn, locationsCtrl.deleteL);
 // GET is the show id page for specific Location
 router.get('/:id', ensureLoggedIn, locationsCtrl.showL);
 
+// Edit and update a location
+router.put('/mylocations/:id', ensureLoggedIn, locationsCtrl.updateL);
+
 module.exports = router;

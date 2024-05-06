@@ -9,6 +9,7 @@ const LocationList = ({locations}) => {
                 <LocationListItem
                     key={location.id}
                     name={location.name}
+                    date={location.date}
                     notes={location.notes} 
                 />
             ))}

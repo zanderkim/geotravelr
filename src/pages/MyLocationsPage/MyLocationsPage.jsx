@@ -1,9 +1,9 @@
 import React from 'react';
-import {useState, useEffect, useRef} from 'react';
+import {useState, useEffect} from 'react';
 import './MyLocationsPage.css';
-import AddLocationPage from '../../components/AddLocationForm/AddLocationPage';
 import * as locationfunctions from '../../utilities/locations-api';
 import LocationList from './LocationList';
+
 
 
 export default function MyLocationsPage() {
@@ -19,6 +19,11 @@ export default function MyLocationsPage() {
       newLocations.splice(locations, 1)
       setLocations(newLocations)
     }
+    // function handleDelete(locations){
+    //   const newLocations = [...locations]
+    //   newLocations.splice(locations, 1)
+    //   setLocations(newLocations)
+    // }
 
     function createLocation(location) {
       setLocations([...locations, location])
@@ -26,17 +31,18 @@ export default function MyLocationsPage() {
 
     useEffect(function() {
       async function index() {
-        const locations = await locations.getAll();
-      }})
+        const getLocations = await locationfunctions.getLocation();
+        console.log(getLocations);
+        setLocations(getLocations);
+      } index()
+    }, [])
       // index(LocationList);
 
     return (
       <>
       <div class="my-locations-page">
-        <h1> all my locations</h1>
-        <p> new york, NY </p>
-        {/* <LocationList /> */}
-
+        <h1> destination board </h1>
+        <LocationList locations = {locations}  />
 
         <a href="/addlocation"> add location</a>
 

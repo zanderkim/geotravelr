@@ -1,7 +1,7 @@
 import sendRequest from "./send-request";
 const BASE_URL = '/mylocations';
 
-export async function index() {
+export async function getLocation() {
     return sendRequest(BASE_URL);
 }
 

@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, Redirect} from 'react';
 import './AddLocationPage.css';
 import * as locationfunctions from '../../utilities/locations-api';
 
@@ -13,17 +13,20 @@ export default function AddLocationPage() {
     console.log("handle submit")
     await locationfunctions.createLocation(newLocation);
     setNewLocation("");
+    <Redirect to="/mylocations"/>
   }
 
   function handleChange(evt) {
     setNewLocation({ ...newLocation, [evt.target.name]: evt.target.value });
   }
 
+
   console.log(newLocation);
 
 
   return (
-    <form className="AddLocationPage" onSubmit={handleSubmit}>
+    
+    <form className="AddLocationPage" onSubmit={handleSubmit} >
       <label>enter location</label>
       <input
         className="AddLocationPage"
@@ -33,6 +36,14 @@ export default function AddLocationPage() {
         required
         pattern=".{1,}"
       />
+      <label>enter date</label>
+      <input
+        className="AddLocationPage"
+        name="date"
+        value={newLocation.date}
+        onChange={handleChange}
+        required
+      />
       <label>notes</label>
       <input
         className="AddLocationPage"
@@ -40,7 +51,8 @@ export default function AddLocationPage() {
         value={newLocation.notes}
         onChange={handleChange} 
       />
-        <button id="add-location-btn">add</button>
+        <button id="add-location-btn" a href='/mylocations' >add</button>
     </form>
   );
 }
+

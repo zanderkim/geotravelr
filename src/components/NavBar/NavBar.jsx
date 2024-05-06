@@ -16,6 +16,8 @@ export default function NavBar({ user, setUser }) {
         <Link to="/messages">messages</Link>
         &nbsp; | &nbsp;
 
+        <Link to="/worldmap"> world map |</Link>
+        &nbsp;&nbsp;
         <Link to="/mylocations"> my locations |</Link>
         &nbsp;&nbsp;
         <Link to="/places"> all places |</Link>

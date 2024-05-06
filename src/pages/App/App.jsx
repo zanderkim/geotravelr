@@ -11,6 +11,8 @@ import PlacesPage from '../Places/Places';
 import AddPlacePage from '../Places/AddPlacePage';
 import AddWishlistPage from '../ProfilePage/AddWishlist';
 import NavBar from '../../components/NavBar/NavBar';
+import WorldMapPage from '../WorldMapPage/WorldMapPage';
+import { useNavigation } from 'react-router-dom';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -20,12 +22,14 @@ export default function App() {
     <main className="App">
       { user ?
           <>
+       
             <NavBar user={user} setUser={setUser} />
             <Routes>
               {/* Route components in here */}
               <Route path="/profile" element={<ProfilePage />} />
               <Route path="/messages" element={<MessagesPage />} />
               <Route path="/mylocations" element={<MyLocationsPage />} />
+              <Route path="/worldmap" element={<WorldMapPage />} />
               <Route path="/addlocation" element={<AddLocationPage />} />
               <Route path="/places" element={<PlacesPage />} />
               <Route path="/addplace" element={<AddPlacePage />} />

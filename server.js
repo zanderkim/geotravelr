@@ -30,6 +30,7 @@ app.use('/api/users', require('./routes/api/users'));
 app.use('/mylocations', require('./routes/api/locations'));
 // locations.js file in utilities - connect to backend routes
 
+app.use('/places', require('./routes/api/places'));
 
 // The following "catch all" route (note the *) is necessary
 // to return the index.html on all non-AJAX/API requests

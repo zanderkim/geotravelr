@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const locationsCtrl = require('../../controllers/api/locationsCtrl');
 const ensureLoggedIn = require('../../config/ensureLoggedIn');
-const Location = require('../../models/location');
 
 // GET /allUserLocations
 router.get('/', ensureLoggedIn, locationsCtrl.index);

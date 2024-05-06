@@ -1,15 +1,19 @@
 import React from 'react';
+import LocationListItem from './LocationListItem';
 
-export default function LocationList({ locations}) {
+
+const LocationList = ({locations}) => {
     return (
-        <ul>
+        <ul className="LocationList">
             {locations.map(location => (
-                <location
-                key={location.user}
-                location={location}
+                <LocationListItem
+                    key={location.id}
+                    name={location.name}
+                    notes={location.notes} 
                 />
             ))}
         </ul>
     )
-};
+}
 
+export default LocationList;

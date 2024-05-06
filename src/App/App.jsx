@@ -3,7 +3,6 @@ import './App.css';
 // Add the following import
 import { getUser } from '../../utilities/users-service';
 
-
 export default function App() {
   const [user, setUser] = useState(getUser());
   return (
@@ -11,7 +10,6 @@ export default function App() {
     <main className="App">
       App
     </main>
-
     </>
   );
 }

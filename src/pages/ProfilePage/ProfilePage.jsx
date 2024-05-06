@@ -33,7 +33,7 @@ export default function ProfilePage() {
           {location.map((location) => (
             <li key={location.id} name={location.name}>{location}
               <button onClick={() => handleDelete(location)}> delete</button>
-              {/* <button onClick={() => handleChange(location)} > edit </button> */}
+              <button onClick={() => handleChange(location)} > edit </button>
               </li>
           ))}
         </ul>

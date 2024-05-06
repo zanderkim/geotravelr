@@ -21,6 +21,7 @@ export default function AddLocationPage() {
 
   console.log(newLocation);
 
+
   return (
     <form className="AddLocationPage" onSubmit={handleSubmit}>
       <label>enter location</label>

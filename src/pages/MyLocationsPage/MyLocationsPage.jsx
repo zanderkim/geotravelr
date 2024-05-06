@@ -26,16 +26,17 @@ export default function MyLocationsPage() {
 
     useEffect(function() {
       async function index() {
-        const locations = await index();
+        const locations = await locations.getAll();
       }})
-      locationfunctions.index();
+      // index(LocationList);
 
     return (
       <>
       <div class="my-locations-page">
         <h1> all my locations</h1>
         <p> new york, NY </p>
-       
+        {/* <LocationList /> */}
+
 
         <a href="/addlocation"> add location</a>
 

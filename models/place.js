@@ -15,7 +15,7 @@ const placeSchema = new Schema({
         type: String,
         required: false
     },
-    dropdown: {
+    category: {
         type: String,
         label: "Category",
         autoform: {

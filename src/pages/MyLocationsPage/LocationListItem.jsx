@@ -1,26 +1,26 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect, Link } from "react";
 import './MyLocationsPage.css';
+import { useNavigate } from "react-router-dom";
 
-
-const LocationListItem = ({name, date, notes}) => {
-    // const [locations, setLocations] = useState([])
+const LocationListItem = ({id, name, date, notes, places}) => {
     const [locations, setLocations] = useState([])
     const [inputValue, setInputValue] = useState()
+    const navigate=useNavigate();
 
-    function handleDelete(locations){
-        // const newLocations = [...locations]
-        // newLocations.remove(locations, 1)
-        // setLocations(newLocations)
-      }
-
-      function handleChange(locations) {
-
+ async function handleDelete(id) {
+        console.log('delete button clicked', id);
+        await fetch(id, {method: 'DELETE' });
+        setLocations=('Delete successful');
+        navigate("/mylocations");
       }
 
     return (
         <>
-        <div id="location-card">
+        <div id="location-card"> 
+        <div id="location-card-id">
+            {id}
+        </div>
         <div id="location-card-name">
             {name}
         </div>
@@ -34,8 +34,13 @@ const LocationListItem = ({name, date, notes}) => {
         </div>
         <div id="edit-delete-card">
 
-        <button id="delete-button" onSubmit={handleDelete()}>delete</button> 
-        <a href='/:id/edit'> edit</a>
+        {/* <button type="submit" onClick={() => handleDelete()} className="btn-delete">delete</button> */}
+        {/* <button id="delete-location-button" type="submit" onClick={handleDelete(id)}>delete</button> */}
+        <span>
+        <button onClick={() => handleDelete(id)}>delete</button>
+        </span>
+        <a href="{id}/update"> edit location</a>
+    
         </div>
         </div>
         </>
@@ -43,4 +48,3 @@ const LocationListItem = ({name, date, notes}) => {
 }
 
 export default LocationListItem;
- 

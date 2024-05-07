@@ -1,28 +1,32 @@
 import {useState, Redirect} from 'react';
 import './AddLocationPage.css';
 import * as locationfunctions from '../../utilities/locations-api';
+import { useNavigate } from 'react-router-dom';
+
 
 export default function AddLocationPage() {
   const [newLocation, setNewLocation] = useState({
     name: "",
+    date: "",
     notes: "",
   });
+  const navigate=useNavigate();
+
+
 
   async function handleSubmit(evt) {
     evt.preventDefault();
     console.log("handle submit")
     await locationfunctions.createLocation(newLocation);
     setNewLocation("");
-    <Redirect to="/mylocations"/>
+    navigate("/mylocations");
   }
 
   function handleChange(evt) {
     setNewLocation({ ...newLocation, [evt.target.name]: evt.target.value });
   }
 
-
   console.log(newLocation);
-
 
   return (
     

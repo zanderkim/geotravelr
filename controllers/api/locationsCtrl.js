@@ -40,7 +40,7 @@ async function deleteLocation(req, res) {
   try {
     await Location.delete(req.body)
     res.json(location);
-
+    res.render('/mylocations')
   } catch (err) {
     res.render('/mylocations', {
       errorMsg: err

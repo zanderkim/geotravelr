@@ -20,7 +20,7 @@ export default function NavBar({ user, setUser }) {
         &nbsp;&nbsp;
         <Link to="/mylocations"> my locations |</Link>
         &nbsp;&nbsp;
-        <Link to="/places"> all places |</Link>
+        <Link to="/myplaces"> all places |</Link>
         &nbsp;&nbsp;
         &nbsp;&nbsp;<Link to="" onClick={handleLogOut}>log out</Link>
       </nav>

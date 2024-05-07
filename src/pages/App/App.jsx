@@ -13,6 +13,7 @@ import AddWishlistPage from '../ProfilePage/AddWishlist';
 import NavBar from '../../components/NavBar/NavBar';
 import WorldMapPage from '../WorldMapPage/WorldMapPage';
 import { useNavigation } from 'react-router-dom';
+import EditLocationPage from '../../components/AddLocationForm/EditLocationPage';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -31,9 +32,10 @@ export default function App() {
               <Route path="/mylocations" element={<MyLocationsPage />} />
               <Route path="/worldmap" element={<WorldMapPage />} />
               <Route path="/addlocation" element={<AddLocationPage />} />
-              <Route path="/places" element={<PlacesPage />} />
+              <Route path="/myplaces" element={<PlacesPage />} />
               <Route path="/addplace" element={<AddPlacePage />} />
               <Route path="/addwishlist" element={<AddWishlistPage />} />
+              <Route path="/:id/update" element={<EditLocationPage /> } />
             </Routes>
           </>
           :

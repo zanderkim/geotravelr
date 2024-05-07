@@ -2,15 +2,19 @@ import React from 'react';
 import LocationListItem from './LocationListItem';
 
 
-const LocationList = ({locations}) => {
+const LocationList = ({location, locations, setLocations}) => {
+    console.log(locations)
     return (
         <ul className="LocationList">
             {locations.map(location => (
                 <LocationListItem
-                    key={location.id}
+                    key={location._id}
+                    id={location._id}
                     name={location.name}
                     date={location.date}
-                    notes={location.notes} 
+                    notes={location.notes}
+                    locations={locations} 
+                    setLocations={setLocations}
                 />
             ))}
         </ul>

@@ -1,29 +1,36 @@
 import React from 'react';
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useRef} from 'react';
 import './MyLocationsPage.css';
 import * as locationfunctions from '../../utilities/locations-api';
 import LocationList from './LocationList';
 
 
-
 export default function MyLocationsPage() {
     const [locations, setLocations] = useState([])
     const [inputValue, setInputValue] = useState()
+    const [deleteLocation, setDeleteLocation] = useState(null);
+
 
     function handleChange(evt){
       setInputValue(evt.target.value)
     }
 
-    function handleDelete(locations){
-      const newLocations = [...locations]
-      newLocations.splice(locations, 1)
-      setLocations(newLocations)
-    }
+
+    function handleDelete(){
+     
+      }
+
+      // const newLocations = [...locations]
+      // newLocations.splice(locations, 1)
+      // setLocations(newLocations)
+    
     // function handleDelete(locations){
     //   const newLocations = [...locations]
     //   newLocations.splice(locations, 1)
     //   setLocations(newLocations)
     // }
+
+
 
     function createLocation(location) {
       setLocations([...locations, location])
@@ -36,7 +43,8 @@ export default function MyLocationsPage() {
         setLocations(getLocations);
       } index()
     }, [])
-      // index(LocationList);
+
+
 
     return (
       <>
@@ -50,3 +58,4 @@ export default function MyLocationsPage() {
       </>
     );
   };
+

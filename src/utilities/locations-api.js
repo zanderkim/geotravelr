@@ -9,11 +9,11 @@ export function createLocation(locationId) {
     return sendRequest(`${BASE_URL}`, 'POST', locationId);
 }
 
-async function updateLocation(locationId) {
+export async function updateLocation(locationId) {
     return sendRequest(`${BASE_URL}`, 'POST', locationId);
 }
 
-async function deleteLocation(locationId) {
+export async function deleteLocation(locationId) {
     return sendRequest(`${BASE_URL}`, 'POST', locationId)
 }
 

@@ -1,5 +1,4 @@
 import {useState} from 'react';
-import EditLocationPage from '/';
 import * as locationfunctions from '../../utilities/locations-api';
 
 export default function EditLocationPage() {
@@ -24,33 +23,16 @@ export default function EditLocationPage() {
   
   
     return (
-      <form className="EditLocationPage" onSubmit={handleSubmit}>
-        <label>edit details</label>
-        <input
-          className="EditLocationPage"
-          name="name"
-          value={newLocation.name}
-          onChange={handleChange}
-          required
-          pattern=".{1,}"
-        />
-        <label>edit date</label>
-        <input
-          className="EditLocationPage"
-          name="date"
-          value={newLocation.date}
-          onChange={handleChange}
-          required
-        />
-        <label>edit notes</label>
-        <input
-          className="EditLocationPage"
-          name="notes"
-          value={newLocation.notes}
-          onChange={handleChange} 
-        />
-          <button id="add-location-btn" href='/mylocations/:id' >confirm edits</button>
-      </form>
+      <>
+        <form>
+
+
+        </form>
+      
+      
+      
+      </>
+      
     );
   }
   

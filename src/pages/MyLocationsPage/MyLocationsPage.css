@@ -1,5 +1,7 @@
 
 .my-locations-page {
+    display: flex;
+    flex-wrap: wrap;
     border: 2px;
     border-color: blue;
     flex-direction: row;
@@ -15,14 +17,58 @@
     display: grid;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: #feff9c; 
+
     justify-content: center;
     margin-top: 20px;
-    margin-right: 20px;
-    height: 200px;
-    width: 200px;
-    font-size: 20px;
+    height: 250px;
+    width: 250px;
+    font-size: 28px;
+    padding: 0px;
 }
+
+#sticky-notes {
+    background-color: #ffc;
+    padding: 1em;
+    color: #000;
+    background: #fff740;
+    margin: 10px;
+}
+
+#sticky-notes:nth-child(even) {
+    transform: rotate(4deg);
+    position: relative;
+    background: #7afcff;
+    top: 5px;
+}
+#sticky-notes:nth-child(3n) {
+    transform: rotate(-3deg);
+    position: relative;
+    top: -5px;
+    background: #ccf;
+}
+
+#sticky-notes:nth-child(7n) {
+    position: relative;
+    background: #ff7eb9;
+}
+#sticky-notes:nth-child(5n) {
+    transform: rotate(5deg);
+    position: relative;
+}
+
+/* #sticky-notes:hover, #sticky-notes:focus{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.25);
+    position:relative;
+    z-index:3;
+} */
+#sticky-notes:hover, #sticky-notes:focus{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.2);
+    position:relative;
+    z-index:8;
+}
+
 
 #location-card-name {
     font-size: 24px;
@@ -40,5 +86,31 @@
 #edit-delete-card {
     display: flex;
     flex-direction: row-reverse;
+    align-items: baseline;
     justify-content: center;
+    font-size: 16px;
+    color: blue;
+
+}
+
+#add-lctn {
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    border-color: blue;
+    background-color: lightblue;
+    font-family: "Forum", serif;
+    font-size: 20px;
+}
+
+#note-delete-button {
+    justify-content: flex-end;
+    background-color: lightcoral;
+   
+    
+}
+
+.page-headers {
+    display: flex;
+
 }

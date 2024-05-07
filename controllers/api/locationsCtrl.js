@@ -8,7 +8,7 @@ module.exports = {
     deleteL: deleteLocation,
   };
 
-// mylocations - shows all user locations
+// index/mylocations - shows all user locations
 async function index(req, res) {
   const locations = await Location.find({});
   res.json(locations);
@@ -43,8 +43,6 @@ async function updateLocation(req, res) {
 
 // Deletes location, redirects to index
 async function deleteLocation(req, res) {
-  // console.log(req.params)
-  // console.log(index());
   try {
     const locations = await Location.findByIdAndDelete(req.params.id)
     res.json(locations);

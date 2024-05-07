@@ -5,6 +5,7 @@ import LocationListItem from './LocationListItem';
 const LocationList = ({location, locations, setLocations, handleDelete}) => {
     console.log(locations)
     return (
+        <>
         <ul className="LocationList">
             {locations.map(location => (
                 <LocationListItem
@@ -20,6 +21,9 @@ const LocationList = ({location, locations, setLocations, handleDelete}) => {
                 />
             ))}
         </ul>
+        <a href="/addlocation" id="add-lctn"> add location</a>
+
+        </>
     )
 }
 

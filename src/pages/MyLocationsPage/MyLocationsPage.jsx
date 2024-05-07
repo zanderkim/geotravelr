@@ -37,9 +37,10 @@ export default function MyLocationsPage() {
     return (
       <>
       <div class="my-locations-page">
-        <h1> destination board </h1>
+        <h1 class="page-headers"> destination board </h1>
+       
         <LocationList locations = {locations} handleDelete={handleDelete} />
-        <a href="/addlocation"> add location</a>
+
       </div>
       </>
     );

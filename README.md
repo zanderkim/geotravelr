@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+<details open>
+<summary> ## Getting Started with Create React App</summary>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -69,6 +70,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+</details>
+
 # <h1 align="center">geotravelr</h1>
 #### <h3 align="center"><a  href="https://surfbuddy-28492932a4e1.herokuapp.com/">Try geotravelr on Heroku here</a></h3>
 
@@ -133,6 +136,7 @@ Document your travels with geotravelr - and blah blah blah.
 ![Heroku](https://img.shields.io/badge/-Heroku-333?style=flat&logo=heroku)
 
 ## ⚛️ Getting Started
+
 ### 📲 Instructions
 <details>
 <summary>how to use geotravelr</summary>
@@ -147,14 +151,8 @@ Document your travels with geotravelr - and blah blah blah.
 
 ### 🔗 Links
 
-<details>
-<summary>trello board</summary>
-<a href="https://trello.com/b/iCp81rsC/project-3-django-surf-school-management-app">https://trello.com/b/iCp81rsC/project-3-django-surf-school-management-app</a>
-</details>
-
-
 <details open>
-<summary>geotravelr on heroku</summary>
+<summary>geotravelr trello board</summary>
 <a href="https://trello.com/b/VWlO3DdZ/zk-project-4">https://trello.com/b/VWlO3DdZ/zk-project-4</a>
 </details>
 

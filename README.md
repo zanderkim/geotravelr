@@ -1,6 +1,6 @@
 
 # <h1 align="center">geotravelr</h1>
-#### <h3 align="center"><a  href="https://surfbuddy-28492932a4e1.herokuapp.com/">Try geotravelr on Heroku here</a></h3>
+#### <h3 align="center"><a  href="https://surfbuddy-28492932a4e1.herokuapp.com/"> depart with geotravelr on Heroku here</a></h3>
 
  <a href="https://www.linkedin.com/in/zanderkim/" target="_blank">
       <img src="https://img.shields.io/badge/-linkedin.com/in/zkim-blue?style=flat&logo=Linkedin&logoColor=white">
@@ -21,7 +21,7 @@ Document your travels with geotravelr - and blah blah blah.
  
  | Description | Screenshot |
  |------------ | ------------|
- | <h3 align="center">ERD</h3> | <img src="main_app/static/imgs/ERD.png" width="700">
+ | <h3 align="center">ERD</h3> | <img src="main_app/static/imgs/ERD-geotravelr.png" width="700">
  
 </details>
 
@@ -32,7 +32,6 @@ Document your travels with geotravelr - and blah blah blah.
  |------------ | ------------|
  | <h3 align="center">Wireframes</h3> | <img src="main_app/static/imgs/Wireframe.png" width="700">
  
- 
 </details>
 
 <details open>
@@ -40,27 +39,31 @@ Document your travels with geotravelr - and blah blah blah.
  
  | Description | Screenshot |
  |------------ | ------------|
- | <h3 align="center">Home Page</h3> | <img src="main_app/static/imgs/home-page.png" width="700">
- | <h3 align="center">About Page</h3> | <img src="main_app/static/imgs/about-page.png" width="700">
- | <h3 align="center">Lesson Details</h3> | <img src="main_app/static/imgs/lesson-details.png" width="700">
+ | <h3 align="center">Home/Explore Page</h3> | <img src="main_app/static/imgs/homepage.png" width="700">
+ | <h3 align="center">Forms</h3> | <img src="main_app/static/imgs/forms.png" width="700">
+ | <h3 align="center">Locations</h3> | <img src="main_app/static/imgs/locations.png" width="700">
+ | <h3 align="center">Messages</h3> | <img src="main_app/static/imgs/messages.png" width="700">
  
 </details>
- 
 </details>
  
 ## 💻 Technologies Used
-
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
+![MongoDB] (https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
 ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
 ![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
 ![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
-![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)
 ![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
 ![CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)
 ![Trello](https://img.shields.io/badge/-Trello-333?style=flat&logo=trello) 
 ![Heroku](https://img.shields.io/badge/-Heroku-333?style=flat&logo=heroku)
+![StackOverflow](https://aleen42.github.io/badges/src/stackoverflow.svg)
+![freeCodeCamp](https://img.shields.io/badge/freecodecamp-27273D?style=for-the-badge&logo=freecodecamp&logoColor=white)
 
 ## ⚛️ Getting Started
 

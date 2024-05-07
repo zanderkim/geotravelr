@@ -22,6 +22,6 @@ router.get('/:id', ensureLoggedIn, locationsCtrl.showL);
 router.get('/:id/edit', ensureLoggedIn, locationsCtrl.updateL)
 
 // Edit and update a location
-router.put('/mylocations/:id', ensureLoggedIn, locationsCtrl.updateL);
+router.put('/:id/edit', ensureLoggedIn, locationsCtrl.updateL);
 
 module.exports = router;

@@ -68,3 +68,123 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# <h1 align="center">geotravelr</h1>
+#### <h3 align="center"><a  href="https://surfbuddy-28492932a4e1.herokuapp.com/">Try geotravelr on Heroku here</a></h3>
+
+ <a href="https://www.linkedin.com/in/zanderkim/" target="_blank">
+      <img src="https://img.shields.io/badge/-linkedin.com/in/zkim-blue?style=flat&logo=Linkedin&logoColor=white">
+ </a> 
+
+ <a href="mailto:zandergunn@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-zandergunn@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white">
+ </a>
+ </div>
+
+## 📝Description
+Do you love to surf but don't know how and finding instructors is tough?  Well, look no further!  The SwellDevs invite you to the newest technology making waves in the surfing industry: SurfBuddy! Browse lessons and instructors to learn to surf or freshen up on your skills.  Lessons will show you their skill levels and the surf instructors rating.  Hope to catch you dropping in on the Surf Buddy App!
+
+## 🖼️ Screenshots
+
+<details>
+ <summary> 📊 ERD</summary>
+ 
+ | Description | Screenshot |
+ |------------ | ------------|
+ | <h3 align="center">ERD</h3> | <img src="main_app/static/imgs/ERD.png" width="700">
+ 
+</details>
+
+<details>
+ <summary> 🎨 Wireframes</summary>
+ 
+ | Description | Screenshot |
+ |------------ | ------------|
+ | <h3 align="center">Wireframes</h3> | <img src="main_app/static/imgs/Wireframe.png" width="700">
+ 
+ 
+</details>
+
+<details open>
+ <summary> ⚙️ Functionality</summary>
+ 
+ | Description | Screenshot |
+ |------------ | ------------|
+ | <h3 align="center">Home Page</h3> | <img src="main_app/static/imgs/home-page.png" width="700">
+ | <h3 align="center">About Page</h3> | <img src="main_app/static/imgs/about-page.png" width="700">
+ | <h3 align="center">Lesson Details</h3> | <img src="main_app/static/imgs/lesson-details.png" width="700">
+ 
+</details>
+ 
+</details>
+ 
+## 💻 Technologies Used
+
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
+![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
+![Materialize CSS](https://img.shields.io/badge/-Materialize_CSS-05122A?style=flat&logo=materialdesign)
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
+![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
+![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)
+![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)
+![Trello](https://img.shields.io/badge/-Trello-333?style=flat&logo=trello) 
+![Heroku](https://img.shields.io/badge/-Heroku-333?style=flat&logo=heroku)
+
+## ⚛️ Getting Started
+### 📲 Instructions
+<details>
+<summary>how to use geotravelr</summary>
+ 
+1. Create a simple profile with an email and password.
+ 
+2. Add locations you've traveled and places you'd like to travel.
+ 
+3. Add notes, photos, and more to any location and place at that destination.
+
+</details>
+
+<details>
+
+
+<details>
+<summary>API Instructions</summary>
+ 
+1. Go to <a href="https://api.marea.ooo/">Marea API</a>.
+
+2. Register for an account and confirm it in the received email. You will have 100 free requests.
+
+3. Create a .gitignore and .env file in your project directory.
+
+4. Add .env to your .gitignore file.
+
+5. Locate your API Key in your Marea API website Dashboard. 
+
+6. Add "API_KEY=[Your API Key]" to the .env file.
+</details>
+
+### 🔗 Links
+
+<details>
+<summary>trello board</summary>
+<a href="https://trello.com/b/iCp81rsC/project-3-django-surf-school-management-app">https://trello.com/b/iCp81rsC/project-3-django-surf-school-management-app</a>
+</details>
+
+
+<details open>
+<summary>geotravelr on heroku</summary>
+<a href="https://trello.com/b/VWlO3DdZ/zk-project-4">https://trello.com/b/VWlO3DdZ/zk-project-4</a>
+</details>
+
+## ⏭️ Next Steps
+- [ ] Find and fix bugs
+- [ ] Add a friend feature, see your friend's locations (permission by choice)
+- [ ] Add a chat/message feature between friends
+- [ ] Add a world map where users can pin locations
+- [ ] Customize home page with local weather and event APIs
+- [ ] Add AI for location recommendations
+
+
+

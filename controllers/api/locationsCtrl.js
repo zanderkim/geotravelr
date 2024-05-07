@@ -33,6 +33,7 @@ async function createLocation(req, res) {
 
 // Updates location (edit)
 async function updateLocation(req, res) {
+
 }
 
 // Deletes location, redirects to index

@@ -13,7 +13,6 @@ export default function AddLocationPage() {
   const navigate=useNavigate();
 
 
-
   async function handleSubmit(evt) {
     evt.preventDefault();
     console.log("handle submit")

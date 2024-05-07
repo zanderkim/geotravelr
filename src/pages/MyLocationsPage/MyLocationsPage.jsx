@@ -30,8 +30,6 @@ export default function MyLocationsPage() {
     //   setLocations(newLocations)
     // }
 
-
-
     function createLocation(location) {
       setLocations([...locations, location])
     };
@@ -43,8 +41,6 @@ export default function MyLocationsPage() {
         setLocations(getLocations);
       } index()
     }, [])
-
-
 
     return (
       <>

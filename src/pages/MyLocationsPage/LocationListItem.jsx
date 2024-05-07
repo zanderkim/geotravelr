@@ -11,7 +11,7 @@ const LocationListItem = ({id, name, date, notes, places}) => {
  async function handleDelete(id) {
         console.log('delete button clicked', id);
         await fetch(id, {method: 'DELETE' });
-        setLocations=('Delete successful');
+  
         navigate("/mylocations");
       }
 
@@ -39,7 +39,7 @@ const LocationListItem = ({id, name, date, notes, places}) => {
         <span>
         <button onClick={() => handleDelete(id)}>delete</button>
         </span>
-        <a href="{id}/update"> edit location</a>
+        <a href="{id}}/update"> edit location</a>
     
         </div>
         </div>

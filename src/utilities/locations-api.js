@@ -10,11 +10,11 @@ export function createLocation(locationId) {
 }
 
 export async function updateLocation(locationId) {
-    return sendRequest(`${BASE_URL}`, 'POST', locationId);
+    return sendRequest(`${BASE_URL}/${locationId}/edit`, 'PUT');
 }
 
 export async function deleteLocation(locationId) {
-    return sendRequest(`${BASE_URL}`, 'POST', locationId)
+    return sendRequest(`${BASE_URL}/${locationId}`, 'DELETE');
 }
 
 

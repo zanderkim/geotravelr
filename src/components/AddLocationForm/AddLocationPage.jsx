@@ -30,7 +30,7 @@ export default function AddLocationPage() {
   return (
     
     <form className="AddLocationPage" onSubmit={handleSubmit} >
-      <label>enter location</label>
+      <label class="add-location-text">enter location</label>
       <input
         className="AddLocationPage"
         name="name"
@@ -39,7 +39,7 @@ export default function AddLocationPage() {
         required
         pattern=".{1,}"
       />
-      <label>enter date</label>
+      <label class="add-location-text">enter date</label>
       <input
         className="AddLocationPage"
         name="date"
@@ -47,14 +47,14 @@ export default function AddLocationPage() {
         onChange={handleChange}
         required
       />
-      <label>notes</label>
+      <label class="add-location-text">notes</label>
       <input
         className="AddLocationPage"
         name="notes"
         value={newLocation.notes}
         onChange={handleChange} 
       />
-        <button id="add-location-btn" a href='/mylocations' >add</button>
+        <button id="add-location-btn" a href='/mylocations' >add trip</button>
     </form>
   );
 }

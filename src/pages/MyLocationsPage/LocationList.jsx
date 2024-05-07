@@ -2,7 +2,7 @@ import React from 'react';
 import LocationListItem from './LocationListItem';
 
 
-const LocationList = ({location, locations, setLocations}) => {
+const LocationList = ({location, locations, setLocations, handleDelete}) => {
     console.log(locations)
     return (
         <ul className="LocationList">
@@ -15,6 +15,7 @@ const LocationList = ({location, locations, setLocations}) => {
                     notes={location.notes}
                     locations={locations} 
                     setLocations={setLocations}
+                    handleDelete={handleDelete}
                 />
             ))}
         </ul>

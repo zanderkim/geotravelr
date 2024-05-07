@@ -8,28 +8,19 @@ import LocationList from './LocationList';
 export default function MyLocationsPage() {
     const [locations, setLocations] = useState([])
     const [inputValue, setInputValue] = useState()
-    const [deleteLocation, setDeleteLocation] = useState(null);
-
 
     function handleChange(evt){
       setInputValue(evt.target.value)
     }
 
-
-    function handleDelete(){
-     
-      }
-
-      // const newLocations = [...locations]
-      // newLocations.splice(locations, 1)
-      // setLocations(newLocations)
-    
-    // function handleDelete(locations){
-    //   const newLocations = [...locations]
-    //   newLocations.splice(locations, 1)
-    //   setLocations(newLocations)
-    // }
-
+    async function handleDelete(id) {
+      console.log('delete button clicked', id);
+      const updatedLocationList = await locationfunctions.deleteLocation(id);
+      setLocations(updatedLocationList);
+      // window.location.reload();
+      // navigate("/mylocations");
+    }
+   
     function createLocation(location) {
       setLocations([...locations, location])
     };
@@ -46,7 +37,7 @@ export default function MyLocationsPage() {
       <>
       <div class="my-locations-page">
         <h1> destination board </h1>
-        <LocationList locations = {locations}  />
+        <LocationList locations = {locations} handleDelete={handleDelete}  />
 
         <a href="/addlocation"> add location</a>
 

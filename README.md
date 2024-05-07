@@ -1,5 +1,72 @@
+
+# <h1 align="center">geotravelr</h1>
+#### <h3 align="center"><a  href="https://surfbuddy-28492932a4e1.herokuapp.com/">Try geotravelr on Heroku here</a></h3>
+
+ <a href="https://www.linkedin.com/in/zanderkim/" target="_blank">
+      <img src="https://img.shields.io/badge/-linkedin.com/in/zkim-blue?style=flat&logo=Linkedin&logoColor=white">
+ </a> 
+
+ <a href="mailto:zandergunn@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-zandergunn@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white">
+ </a>
+ </div>
+
+## 📝Description
+Document your travels with geotravelr - and blah blah blah.
+
+## 🖼️ Screenshots
+
+<details>
+ <summary> 📊 ERD</summary>
+ 
+ | Description | Screenshot |
+ |------------ | ------------|
+ | <h3 align="center">ERD</h3> | <img src="main_app/static/imgs/ERD.png" width="700">
+ 
+</details>
+
+<details>
+ <summary> 🎨 Wireframes</summary>
+ 
+ | Description | Screenshot |
+ |------------ | ------------|
+ | <h3 align="center">Wireframes</h3> | <img src="main_app/static/imgs/Wireframe.png" width="700">
+ 
+ 
+</details>
+
 <details open>
-<summary> ## Getting Started with Create React App</summary>
+ <summary> ⚙️ Functionality</summary>
+ 
+ | Description | Screenshot |
+ |------------ | ------------|
+ | <h3 align="center">Home Page</h3> | <img src="main_app/static/imgs/home-page.png" width="700">
+ | <h3 align="center">About Page</h3> | <img src="main_app/static/imgs/about-page.png" width="700">
+ | <h3 align="center">Lesson Details</h3> | <img src="main_app/static/imgs/lesson-details.png" width="700">
+ 
+</details>
+ 
+</details>
+ 
+## 💻 Technologies Used
+
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
+![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
+![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
+![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)
+![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)
+![Trello](https://img.shields.io/badge/-Trello-333?style=flat&logo=trello) 
+![Heroku](https://img.shields.io/badge/-Heroku-333?style=flat&logo=heroku)
+
+## ⚛️ Getting Started
+
+### Getting Started with React
+<details open>
+<summary> Getting Started with Create React App</summary>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -71,71 +138,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 </details>
-
-# <h1 align="center">geotravelr</h1>
-#### <h3 align="center"><a  href="https://surfbuddy-28492932a4e1.herokuapp.com/">Try geotravelr on Heroku here</a></h3>
-
- <a href="https://www.linkedin.com/in/zanderkim/" target="_blank">
-      <img src="https://img.shields.io/badge/-linkedin.com/in/zkim-blue?style=flat&logo=Linkedin&logoColor=white">
- </a> 
-
- <a href="mailto:zandergunn@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-zandergunn@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white">
- </a>
- </div>
-
-## 📝Description
-Document your travels with geotravelr - and blah blah blah.
-
-## 🖼️ Screenshots
-
-<details>
- <summary> 📊 ERD</summary>
- 
- | Description | Screenshot |
- |------------ | ------------|
- | <h3 align="center">ERD</h3> | <img src="main_app/static/imgs/ERD.png" width="700">
- 
-</details>
-
-<details>
- <summary> 🎨 Wireframes</summary>
- 
- | Description | Screenshot |
- |------------ | ------------|
- | <h3 align="center">Wireframes</h3> | <img src="main_app/static/imgs/Wireframe.png" width="700">
- 
- 
-</details>
-
-<details open>
- <summary> ⚙️ Functionality</summary>
- 
- | Description | Screenshot |
- |------------ | ------------|
- | <h3 align="center">Home Page</h3> | <img src="main_app/static/imgs/home-page.png" width="700">
- | <h3 align="center">About Page</h3> | <img src="main_app/static/imgs/about-page.png" width="700">
- | <h3 align="center">Lesson Details</h3> | <img src="main_app/static/imgs/lesson-details.png" width="700">
- 
-</details>
- 
-</details>
- 
-## 💻 Technologies Used
-
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
-![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
-![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
-![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
-![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
-![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)
-![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)
-![Trello](https://img.shields.io/badge/-Trello-333?style=flat&logo=trello) 
-![Heroku](https://img.shields.io/badge/-Heroku-333?style=flat&logo=heroku)
-
-## ⚛️ Getting Started
 
 ### 📲 Instructions
 <details>

@@ -2,18 +2,17 @@ import React from "react";
 import { useState, useEffect, Link } from "react";
 import './MyLocationsPage.css';
 import { useNavigate } from "react-router-dom";
+import { deleteLocation } from "../../utilities/locations-api";
 
-const LocationListItem = ({id, name, date, notes, places}) => {
-    const [locations, setLocations] = useState([])
-    const [inputValue, setInputValue] = useState()
+const LocationListItem = ({id, name, date, notes, places, handleDelete}) => {
     const navigate=useNavigate();
 
- async function handleDelete(id) {
-        console.log('delete button clicked', id);
-        await fetch(id, {method: 'DELETE' });
-  
-        navigate("/mylocations");
-      }
+//  async function handleDelete(id) {
+//         console.log('delete button clicked', id);
+//         await deleteLocation(id);
+//         window.location.reload();
+//         // navigate("/mylocations");
+//       }
 
     return (
         <>

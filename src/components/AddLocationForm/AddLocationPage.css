@@ -1,7 +1,23 @@
-#add-location-button {
-    color: white;
-}
 
 #add-location-form {
+    display: flex;
+    max-width: 100px;
     font-family: "Forum", serif;
+}
+
+#add-location-btn {
+    font-family: "Forum", serif;
+    background-color: green;
+    max-width: 60px;
+}
+
+.AddLocationPage {
+    font-family: "Forum", serif;
+    font-size: 20px;
+}
+
+.add-location-text {
+    font-family: "Forum", serif;
+    font-size: 20px;
+   
 }

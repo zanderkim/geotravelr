@@ -33,19 +33,22 @@ async function createLocation(req, res) {
 
 // Updates location (edit)
 async function updateLocation(req, res) {
-
+  try {
+    await Location.findByIdAndUpdate(req.params.id)
+  } catch (err) {
+    res.json(err)
+  }
 }
 
 // Deletes location, redirects to index
 async function deleteLocation(req, res) {
+  // console.log(req.params)
+  // console.log(index());
   try {
-    await Location.delete(req.body)
-    res.json(location);
-    res.render('/mylocations')
+    await Location.findByIdAndDelete(req.params.id)
+    const locations = await Location.find({});
+    res.json(locations);
   } catch (err) {
-    res.render('/mylocations', {
-      errorMsg: err
-    })
+   res.json(err)
   }
 }
-

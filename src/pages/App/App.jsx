@@ -41,9 +41,6 @@ export default function App() {
           :
           <AuthPage setUser={setUser} />
       }
-      <div>
-        <h1>hello</h1>
-      </div>
     </main>
   );
 }

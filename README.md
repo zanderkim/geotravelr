@@ -1,6 +1,6 @@
 
 # <h1 align="center">geotravelr</h1>
-#### <h3 align="center"><a  href="https://surfbuddy-28492932a4e1.herokuapp.com/"> depart with geotravelr on Heroku here</a></h3>
+#### <h3 align="center"><a  href="geotravelr-45ba352acad5.herokuapp.com/"> depart with GeoTravelr on Heroku here</a></h3>
 
  <a href="https://www.linkedin.com/in/zanderkim/" target="_blank">
       <img src="https://img.shields.io/badge/-linkedin.com/in/zkim-blue?style=flat&logo=Linkedin&logoColor=white">
@@ -12,7 +12,11 @@
  </div>
 
 ## 📝Description
-Document your travels with geotravelr - and blah blah blah.
+Calling all Travelrs! For those who love to explore the geographical world and discover new landmarks and hotspots, find the world with GeoTravelr - an easy travel app that lets you record your travels and memories associated with them.
+
+Unlike a photo sharing or local review app, GeoTravelr is a simple and separate secure log that can be as personal as you want it to be. Connect with friends to plan your next trip. Discover events local to wherever you are. 
+
+For journalers, culture enthusiasts, and frequent flyers, map the world with GeoTravelr.
 
 ## 🖼️ Screenshots
 
@@ -48,13 +52,11 @@ Document your travels with geotravelr - and blah blah blah.
 </details>
  
 ## 💻 Technologies Used
-![MongoDB] (https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MongoDB] (https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge)
 ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
 ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
 ![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
 ![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
@@ -163,11 +165,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## ⏭️ Next Steps
 - [ ] Find and fix bugs
-- [ ] Add a friend feature, see your friend's locations (permission by choice)
-- [ ] Add a chat/message feature between friends
-- [ ] Add a world map where users can pin locations
-- [ ] Customize home page with local weather and event APIs
-- [ ] Add AI for location recommendations
+- [ ] Add friend feature, see your friend's locations (permissions by choice)
+- [ ] Add a message feature between friends
+- [ ] Add a world map where users can browse, pin locations 
+- [ ] Customize home with local weather and event APIs
+- [ ] Freezer: Add AI for location recommendations
 
 
 

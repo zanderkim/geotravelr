@@ -1,5 +1,6 @@
 import React from 'react';
 import LocationListItem from './LocationListItem';
+import './MyLocationsPage.css';
 
 
 const LocationList = ({location, locations, setLocations, handleDelete}) => {
@@ -20,8 +21,12 @@ const LocationList = ({location, locations, setLocations, handleDelete}) => {
             
                 />
             ))}
+            <br></br>
+   
+       
+             <a href="/addlocation" id="add-lctn"> +location </a>
         </ul>
-        <a href="/addlocation" id="add-lctn"> add location</a>
+       
 
         </>
     )

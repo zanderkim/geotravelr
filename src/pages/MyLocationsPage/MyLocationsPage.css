@@ -56,12 +56,6 @@
     position: relative;
 }
 
-/* #sticky-notes:hover, #sticky-notes:focus{
-    box-shadow:10px 10px 7px rgba(0,0,0,.7);
-    transform: scale(1.25);
-    position:relative;
-    z-index:3;
-} */
 #sticky-notes:hover, #sticky-notes:focus{
     box-shadow:10px 10px 7px rgba(0,0,0,.7);
     transform: scale(1.2);
@@ -94,13 +88,15 @@
 }
 
 #add-lctn {
-    align-content: center;
-    align-items: center;
-    justify-content: flex-end;
+    display: grid;
+    align-content: last baseline;
+    align-items: baseline;
+    justify-content: last baseline;
     border-color: blue;
-    background-color: lightblue;
+    background-color: lightgreen;
     font-family: "Forum", serif;
-    font-size: 20px;
+    font-size: 16px;
+    height: 30px;
 }
 
 #note-delete-button {

@@ -1,25 +1,16 @@
 import React from "react";
-import { useState, useEffect, Link } from "react";
+import { useState, useEffect} from "react";
 import './MyLocationsPage.css';
-import { useNavigate } from "react-router-dom";
-import { deleteLocation } from "../../utilities/locations-api";
+import { useNavigate, Link } from "react-router-dom";
 
 const LocationListItem = ({id, name, date, notes, places, handleDelete}) => {
     const navigate=useNavigate();
 
-//  async function handleDelete(id) {
-//         console.log('delete button clicked', id);
-//         await deleteLocation(id);
-//         window.location.reload();
-//         // navigate("/mylocations");
-//       }
 
     return (
         <>
         <div id="location-card"> 
-        <div id="location-card-id">
-            {id}
-        </div>
+     
         <div id="location-card-name">
             {name}
         </div>
@@ -38,8 +29,8 @@ const LocationListItem = ({id, name, date, notes, places, handleDelete}) => {
         <span>
         <button onClick={() => handleDelete(id)}>delete</button>
         </span>
-        <a href="{id}}/update"> edit location</a>
-    
+        <Link to={`/${id}/edit`}> edit location </Link>
+ 
         </div>
         </div>
         </>

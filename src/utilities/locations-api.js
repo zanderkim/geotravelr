@@ -9,19 +9,11 @@ export function createLocation(locationId) {
     return sendRequest(`${BASE_URL}`, 'POST', locationId);
 }
 
-export async function updateLocation(locationId) {
-    return sendRequest(`${BASE_URL}/${locationId}/edit`, 'PUT');
+export async function updateLocation(locationId, formData) {
+    return sendRequest(`${BASE_URL}/${locationId}/edit`, 'PUT', formData);
 }
 
 export async function deleteLocation(locationId) {
     return sendRequest(`${BASE_URL}/${locationId}`, 'DELETE');
 }
-
-
-// src folder is all frontend // utilities is frontend 
-
-// not used -- example
-// export async function getById(id) {
-//     return sendRequest(`${BASE_URL}/${id}`);
-//   }
 

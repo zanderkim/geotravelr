@@ -34,7 +34,8 @@ async function createLocation(req, res) {
 // Updates location (edit)
 async function updateLocation(req, res) {
   try {
-    await Location.findByIdAndUpdate(req.params.id)
+    const locations = await Location.findByIdAndUpdate(req.params.id, req.body)
+    res.json(locations);
   } catch (err) {
     res.json(err)
   }
@@ -45,8 +46,7 @@ async function deleteLocation(req, res) {
   // console.log(req.params)
   // console.log(index());
   try {
-    await Location.findByIdAndDelete(req.params.id)
-    const locations = await Location.find({});
+    const locations = await Location.findByIdAndDelete(req.params.id)
     res.json(locations);
   } catch (err) {
    res.json(err)

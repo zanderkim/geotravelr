@@ -16,6 +16,7 @@ const LocationList = ({location, locations, setLocations, handleDelete}) => {
                     locations={locations} 
                     setLocations={setLocations}
                     handleDelete={handleDelete}
+            
                 />
             ))}
         </ul>

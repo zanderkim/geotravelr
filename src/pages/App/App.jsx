@@ -35,7 +35,7 @@ export default function App() {
               <Route path="/myplaces" element={<PlacesPage />} />
               <Route path="/addplace" element={<AddPlacePage />} />
               <Route path="/addwishlist" element={<AddWishlistPage />} />
-              <Route path="/:id/update" element={<EditLocationPage /> } />
+              <Route path="/:id/edit" element={<EditLocationPage /> } />
             </Routes>
           </>
           :

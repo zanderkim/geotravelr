@@ -82,7 +82,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
  </div>
 
 ## 📝Description
-Do you love to surf but don't know how and finding instructors is tough?  Well, look no further!  The SwellDevs invite you to the newest technology making waves in the surfing industry: SurfBuddy! Browse lessons and instructors to learn to surf or freshen up on your skills.  Lessons will show you their skill levels and the surf instructors rating.  Hope to catch you dropping in on the Surf Buddy App!
+Document your travels with geotravelr - and blah blah blah.
 
 ## 🖼️ Screenshots
 
@@ -123,7 +123,6 @@ Do you love to surf but don't know how and finding instructors is tough?  Well, 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
 ![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
-![Materialize CSS](https://img.shields.io/badge/-Materialize_CSS-05122A?style=flat&logo=materialdesign)
 ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
 ![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
 ![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
@@ -144,25 +143,6 @@ Do you love to surf but don't know how and finding instructors is tough?  Well, 
  
 3. Add notes, photos, and more to any location and place at that destination.
 
-</details>
-
-<details>
-
-
-<details>
-<summary>API Instructions</summary>
- 
-1. Go to <a href="https://api.marea.ooo/">Marea API</a>.
-
-2. Register for an account and confirm it in the received email. You will have 100 free requests.
-
-3. Create a .gitignore and .env file in your project directory.
-
-4. Add .env to your .gitignore file.
-
-5. Locate your API Key in your Marea API website Dashboard. 
-
-6. Add "API_KEY=[Your API Key]" to the .env file.
 </details>
 
 ### 🔗 Links

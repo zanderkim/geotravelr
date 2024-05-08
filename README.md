@@ -1,5 +1,5 @@
 
-# <h1 align="center">geotravelr</h1>
+# <h1 align="center">GeoTravelr 🌏 </h1>
 #### <h3 align="center"><a  href="https://geotravelr-45ba352acad5.herokuapp.com/"> depart with GeoTravelr here</a></h3>
 
  <a href="https://www.linkedin.com/in/zanderkim/" target="_blank">
@@ -14,13 +14,13 @@
 ## 📝Description
 Calling all Travelrs! For those who love to explore the world and track new landmarks and hidden gems, find them with GeoTravelr - an easy travel app that lets you record your travel history and highlights.
 
-Unlike a photo sharing or review app, GeoTravelr is a simple and secure log as personal as you want it to be. Connect with friends to plan your next trip. Discover local events. Pin favorites on your map. 
+GeoTravelr is a simple log as personal as you want it to be. Connect with friends to plan your next trip. Discover local events. Pin favorites on your map. 
 
 For journalers, culture enthusiasts, and frequent flyers, map the world with GeoTravelr.
 
 ## 🖼️ Screenshots
 
-<details open>
+<details>
  <summary> ⚙️ Functionality</summary>
  
  | Description | Screenshot |
@@ -32,7 +32,7 @@ For journalers, culture enthusiasts, and frequent flyers, map the world with Geo
 </details>
  
 ## 💻 Technologies Used
-![MongoDB] (https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+[MongoDB]
 ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -140,8 +140,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### 🔗 Links
 
-<details open>
-<summary>geotravelr trello board</summary>
+<details>
+<summary>GeoTravelr Trello</summary>
 <a href="https://trello.com/b/VWlO3DdZ/zk-project-4">https://trello.com/b/VWlO3DdZ/zk-project-4</a>
 </details>
 

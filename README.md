@@ -1,14 +1,10 @@
 
 # <h1 align="center">GeoTravelr 🌏 </h1>
-#### <h3 align="center"><a  href="https://geotravelr-45ba352acad5.herokuapp.com/"> depart with GeoTravelr here</a></h3>
+#### <h3 align="center"><a  href="https://geotravelr-45ba352acad5.herokuapp.com/"> depart here</a></h3>
 
  <a href="https://www.linkedin.com/in/zanderkim/" target="_blank">
       <img src="https://img.shields.io/badge/-linkedin.com/in/zkim-blue?style=flat&logo=Linkedin&logoColor=white">
  </a> 
-
- <a href="mailto:zandergunn@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-zandergunn@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white">
- </a>
  </div>
 
 ## 📝Description

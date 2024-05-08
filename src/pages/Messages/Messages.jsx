@@ -1,9 +1,10 @@
-import { checkToken } from '../../utilities/users-service';
+import './Messages.css';
 
 export default function MessagesPage() {
   return (
     <>
-      <h1>my messages</h1>
+      <h1 class="page-headers"> 💬 </h1>
+      <p> feature coming soon... </p>
    
      
     </>

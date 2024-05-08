@@ -1,5 +1,7 @@
 import React from 'react';
 import {useState} from 'react';
+import './ProfilePage.css';
+import * as userService from '../../utilities/users-service';
 
 export default function ProfilePage() {
     const [location, setLocation] = useState([])
@@ -23,28 +25,25 @@ export default function ProfilePage() {
 
     return (
       <>
-      <div class="my-locations-page">
-        <h1> hello, travelr! </h1>
+      <div class="my-profile-page">
+        <h1 class="page-headers"> hello, travelr! </h1>
 
-        <p> my wishlist: </p>
+        <p> wishlist (places you want to visit) </p>
 
-
-        <ul class="location-list">
-          {location.map((location) => (
-            <li key={location.id} name={location.name}>{location}
-              <button onClick={() => handleDelete(location)}> delete</button>
-              <button onClick={() => handleChange(location)} > edit </button>
+{/* 
+          <ul class="wishlist-list">
+          {wishlist.map((wishlist) => (
+            <li key={wishlist.id} name={wishlist.name}>{wishlist}
+              <button onClick={() => handleDelete(wishlist)}> delete</button>
+              <button onClick={() => handleChange(wishlist)} > edit </button>
               </li>
-          ))}
-        </ul>
-
-        <form>
+          ))} 
+        </ul> */}
+       
+        <form id="wishlist-form">
           <input type="text" value={inputValue} onChange={handleChange}/>
-          <button onClick={handleSubmit}> add destination to wishlist </button>
+          <button id="wishlist-btn" onClick={handleSubmit}> add </button>
         </form>
-
-
-
       </div>
       </>
     );

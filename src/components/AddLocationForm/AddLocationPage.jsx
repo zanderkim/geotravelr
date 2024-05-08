@@ -28,7 +28,9 @@ export default function AddLocationPage() {
   console.log(newLocation);
 
   return (
-    
+    <>
+    <br></br>
+    <br></br>
     <form className="AddLocationPage" onSubmit={handleSubmit} >
       <label class="add-location-text">enter location</label>
       <input
@@ -54,8 +56,11 @@ export default function AddLocationPage() {
         value={newLocation.notes}
         onChange={handleChange} 
       />
+      
         <button id="add-location-btn" a href='/mylocations' >add trip</button>
+      
     </form>
+    </>
   );
 }
 

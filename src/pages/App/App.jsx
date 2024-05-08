@@ -12,7 +12,6 @@ import AddPlacePage from '../Places/AddPlacePage';
 import AddWishlistPage from '../ProfilePage/AddWishlist';
 import NavBar from '../../components/NavBar/NavBar';
 import WorldMapPage from '../WorldMapPage/WorldMapPage';
-import { useNavigation } from 'react-router-dom';
 import EditLocationPage from '../../components/AddLocationForm/EditLocationPage';
 
 export default function App() {

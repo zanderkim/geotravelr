@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import * as userService from '../../utilities/users-service';
+import './NavBar.css';
 
 export default function NavBar({ user, setUser }) {
   function handleLogOut() {
@@ -9,20 +10,20 @@ export default function NavBar({ user, setUser }) {
 
   return (
     <>
-      <nav>
-        <span>Welcome to GeoTravelr, {user.name}  |  </span>
-        <Link to="/profile">my profile |</Link>
-        &nbsp;&nbsp;
-        <Link to="/messages">messages</Link>
+      <nav id="nav-bar">
+        <span> {user.name}'s GeoTravelr  </span>
+        &nbsp; 🌏 &nbsp;
+        <Link id="nav-links" to="/profile"> my profile </Link>
         &nbsp; | &nbsp;
-
-        <Link to="/worldmap"> world map |</Link>
-        &nbsp;&nbsp;
-        <Link to="/mylocations"> my locations |</Link>
-        &nbsp;&nbsp;
-        <Link to="/myplaces"> all places |</Link>
-        &nbsp;&nbsp;
-        &nbsp;&nbsp;<Link to="" onClick={handleLogOut}>log out</Link>
+        <Link id="nav-links" to="/messages"> messages </Link>
+        &nbsp; | &nbsp;
+        <Link id="nav-links" to="/worldmap"> world map </Link>
+        &nbsp; | &nbsp;
+        <Link id="nav-links" to="/mylocations"> my locations </Link>
+        &nbsp; | &nbsp;
+        <Link id="nav-links" to="/myplaces"> all places </Link>
+        &nbsp; | &nbsp;
+        <Link id="nav-links" to="" onClick={handleLogOut}>log out</Link>
       </nav>
 
       <div>

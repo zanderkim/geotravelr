@@ -8,16 +8,26 @@
 #add-location-btn {
     font-family: "Forum", serif;
     background-color: green;
-    max-width: 60px;
+    min-width: 100px;
+    height: 40px;
+    font-size: 20px;
 }
 
-.AddLocationPage {
+#add-location-btn:hover {
+    color: lightgreen;
+}
+
+.AddLocationPage, .EditLocationPage {
+    display: grid;
     font-family: "Forum", serif;
     font-size: 20px;
+    width: 500px;
+    text-align: center;
+    display: inline-block;
 }
 
 .add-location-text {
     font-family: "Forum", serif;
-    font-size: 20px;
+    font-size: 16px;
    
 }

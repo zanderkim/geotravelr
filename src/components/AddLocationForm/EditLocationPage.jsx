@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import * as locationfunctions from '../../utilities/locations-api';
 import { useNavigate, useParams } from 'react-router-dom';
+import './AddLocationPage.css';
 
 export default function EditLocationPage() {
     const navigate=useNavigate();
@@ -26,6 +27,8 @@ export default function EditLocationPage() {
   
     return (
       <>
+      <br></br>
+      <br></br>
         <form className="EditLocationPage" onSubmit={handleSubmit} >
       <label>enter location</label>
       <input

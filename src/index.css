@@ -20,7 +20,7 @@ body {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to top right, #d4be90, #f4efe3);
+  background-color: #f4efe3;
   padding: 2vmin;
   height: 100vh;
 }

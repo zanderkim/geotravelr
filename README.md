@@ -1,6 +1,6 @@
 
 # <h1 align="center">geotravelr</h1>
-#### <h3 align="center"><a  href="geotravelr-45ba352acad5.herokuapp.com/"> depart with GeoTravelr on Heroku here</a></h3>
+#### <h3 align="center"><a  href="https://geotravelr-45ba352acad5.herokuapp.com/"> depart with GeoTravelr here</a></h3>
 
  <a href="https://www.linkedin.com/in/zanderkim/" target="_blank">
       <img src="https://img.shields.io/badge/-linkedin.com/in/zkim-blue?style=flat&logo=Linkedin&logoColor=white">
@@ -12,47 +12,27 @@
  </div>
 
 ## 📝Description
-Calling all Travelrs! For those who love to explore the geographical world and discover new landmarks and hotspots, find the world with GeoTravelr - an easy travel app that lets you record your travels and memories associated with them.
+Calling all Travelrs! For those who love to explore the world and track new landmarks and hidden gems, find them with GeoTravelr - an easy travel app that lets you record your travel history and highlights.
 
-Unlike a photo sharing or local review app, GeoTravelr is a simple and separate secure log that can be as personal as you want it to be. Connect with friends to plan your next trip. Discover events local to wherever you are. 
+Unlike a photo sharing or review app, GeoTravelr is a simple and secure log as personal as you want it to be. Connect with friends to plan your next trip. Discover local events. Pin favorites on your map. 
 
 For journalers, culture enthusiasts, and frequent flyers, map the world with GeoTravelr.
 
 ## 🖼️ Screenshots
-
-<details>
- <summary> 📊 ERD</summary>
- 
- | Description | Screenshot |
- |------------ | ------------|
- | <h3 align="center">ERD</h3> | <img src="main_app/static/imgs/ERD-geotravelr.png" width="700">
- 
-</details>
-
-<details>
- <summary> 🎨 Wireframes</summary>
- 
- | Description | Screenshot |
- |------------ | ------------|
- | <h3 align="center">Wireframes</h3> | <img src="main_app/static/imgs/Wireframe.png" width="700">
- 
-</details>
 
 <details open>
  <summary> ⚙️ Functionality</summary>
  
  | Description | Screenshot |
  |------------ | ------------|
- | <h3 align="center">Home/Explore Page</h3> | <img src="main_app/static/imgs/homepage.png" width="700">
- | <h3 align="center">Forms</h3> | <img src="main_app/static/imgs/forms.png" width="700">
- | <h3 align="center">Locations</h3> | <img src="main_app/static/imgs/locations.png" width="700">
- | <h3 align="center">Messages</h3> | <img src="main_app/static/imgs/messages.png" width="700">
- 
+ | <h3 align="center">Signup</h3> | <img src="/build/static/images/signup.png" width="700">
+ | <h3 align="center">Destination Board</h3> | <img src="/build/static/images/destboard.png" width="700">
+
 </details>
 </details>
  
 ## 💻 Technologies Used
-![MongoDB] (https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge)
+![MongoDB] (https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -70,7 +50,7 @@ For journalers, culture enthusiasts, and frequent flyers, map the world with Geo
 ## ⚛️ Getting Started
 
 ### Getting Started with React
-<details open>
+<details>
 <summary> Getting Started with Create React App</summary>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -146,13 +126,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### 📲 Instructions
 <details>
-<summary>how to use geotravelr</summary>
+<summary>how to use GeoTravelr</summary>
  
-1. Create a simple profile with an email and password.
+1. Create a simple profile with an email and password. It can be a false email on signup (may change in future update). Any unique account created will store data for the unique login only.
  
-2. Add locations you've traveled and places you'd like to travel.
+2. Head to My Locations to log and see your travels on your destination board. 
  
-3. Add notes, photos, and more to any location and place at that destination.
+3. Add notes to any location and place at that destination.
+
+4. More features to come.
 
 </details>
 
@@ -169,6 +151,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - [ ] Add a message feature between friends
 - [ ] Add a world map where users can browse, pin locations 
 - [ ] Customize home with local weather and event APIs
+- [ ] Capability to add and place destinations on board
 - [ ] Freezer: Add AI for location recommendations
 
 

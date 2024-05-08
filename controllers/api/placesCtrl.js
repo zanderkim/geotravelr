@@ -10,14 +10,14 @@ module.exports = {
 
 // index/mylocations - shows all user locations
 async function placeIndex(req, res) {
-  const locations = await Location.find({});
-  res.json(locations);
+  const places = await Place.find({});
+  res.json(places);
 }
 
 // shows details of a location (location id page)
 async function showPlace(req, res) {
-  const location = await Location.findById(req.params.id);
-  res.json({location});
+  const place = await Place.findById(req.params.id);
+  res.json({place});
 }
 
 // creates Location, redirects to index
@@ -34,8 +34,8 @@ async function createPlace(req, res) {
 // Updates location (edit)
 async function updatePlace(req, res) {
   try {
-    const locations = await Location.findByIdAndUpdate(req.params.id, req.body)
-    res.json(locations);
+    const places = await Place.findByIdAndUpdate(req.params.id, req.body)
+    res.json(places);
   } catch (err) {
     res.json(err)
   }

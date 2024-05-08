@@ -1,0 +1,7 @@
+.page-headers {
+    display: flex;
+    text-align: center;
+    display: inline-block;
+    color: #dfceac;
+    font-size: 60px;
+}

@@ -1,0 +1,16 @@
+
+#wishlist-form {
+    display: grid;
+    text-align: center;
+    display: inline-block;
+    width: 80px;
+}
+
+#wishlist-btn {
+    width: 80px;
+    background-color: green;
+}
+
+#wishlist-btn:hover {
+    color: lightgreen;
+}

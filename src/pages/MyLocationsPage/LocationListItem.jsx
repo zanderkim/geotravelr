@@ -9,17 +9,19 @@ const LocationListItem = ({id, name, date, notes, places, handleDelete}) => {
 
     return (
         <>
-        <ul id="sticky-notes">
+        <ul id="sticky-notes"> <div id="pin"> 📍 </div>
         <div id="location-card"> 
-        <br></br>
+        
         <div id="location-card-name"> {name} </div>
         <div id="location-card-date"> {date} </div>
         <br></br>
         <br></br>
-        <div id="location-card-notes"> {notes} </div>      
+        <div id="location-card-notes"> {notes} </div>   
+       
             <div id="edit-delete-card">
                 <button id="note-delete-button" onClick={() => handleDelete(id)}>x</button>
-                <Link to={`/${id}/edit`}> edit </Link>
+                &nbsp;  &nbsp;
+                <Link id="edit-sticky" to={`/${id}/edit`}> ✏️</Link>
             </div>
         </div>
         </ul>

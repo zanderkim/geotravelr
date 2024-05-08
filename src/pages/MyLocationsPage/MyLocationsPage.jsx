@@ -20,10 +20,7 @@ export default function MyLocationsPage() {
       const updatedLocationList = await locationfunctions.deleteLocation(id);
       setToggle(prevToggle => !prevToggle)
     }
-   
-    function createLocation(location) {
-      setLocations([...locations, location])
-    };
+
 
     // gets index of all locations
     useEffect(function() {
@@ -36,11 +33,9 @@ export default function MyLocationsPage() {
 
     return (
       <>
+      <h1 class="page-headers"> destination board </h1>
       <div class="my-locations-page">
-        <h1 class="page-headers"> destination board </h1>
-       
         <LocationList locations = {locations} handleDelete={handleDelete} />
-
       </div>
       </>
     );
